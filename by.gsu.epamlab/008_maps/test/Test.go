@@ -1,6 +1,6 @@
 package test
 
-func TestMethod() string {
+func SomeMethod() string {
 
 	return "test string"
 

@@ -38,11 +38,11 @@ func sumFun3(a, b int) (result int) {
 }
 
 func addToEachFun(a, b, c int) (x, y, z int) {
-	addedValue := 5
-	x = a + addedValue
-	y = b + addedValue
-	z = c + addedValue
-	return
+	someValue := 5
+	x = a + someValue
+	y = b + someValue
+	z = c + someValue
+	return x, y, z
 }
 
 func addToEachFun2(a, b, c int) (int, int, int) {

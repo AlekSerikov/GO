@@ -42,5 +42,5 @@ func main() {
 		fmt.Println(anotherMap["someJey"]) вернет 0
 	*/
 
-	fmt.Println(test.TestMethod())
+	fmt.Println(test.SomeMethod())
 }

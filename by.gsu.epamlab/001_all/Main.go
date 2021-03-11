@@ -21,6 +21,7 @@ func main() {
 	array[0] = 1
 
 	var arrayTwo = [...]int{1, 2, 3}
+	var arrayThree = [...][...]int{{1, 2, 3}, {1, 2, 4}}
 
 	//slice
 	var slice = []int{1, 2, 3, 4, 5}
@@ -41,5 +42,6 @@ func main() {
 	fmt.Println(slice)
 	fmt.Println(slice2)
 	fmt.Println(firstMap)
+	fmt.Println(arrayThree)
 
 }
