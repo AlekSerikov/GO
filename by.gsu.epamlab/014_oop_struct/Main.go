@@ -41,6 +41,8 @@ func main() {
 
 	doc4 := NewEDocument("qwe", "12.12.12", 50)
 
-	fmt.Println(doc1, doc2, doc3, doc1.getNumberOfPages(), doc4)
+	doc5 := EDocument{"name", "12.12.12", 45}
+
+	fmt.Println(doc1, doc2, doc3, doc1.getNumberOfPages(), doc4, doc5)
 
 }

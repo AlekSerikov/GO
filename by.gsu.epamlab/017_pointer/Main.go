@@ -13,7 +13,7 @@ func main() {
 
 	AddValueByPointer(&startValue)
 
-	fmt.Println(startValue)
+	fmt.Println(startValue) //start value is changed = 24
 
 	//pointer
 
@@ -22,5 +22,4 @@ func main() {
 	var pointer *int = &x
 
 	fmt.Println(*pointer)
-
 }
