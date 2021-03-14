@@ -38,17 +38,8 @@ func (p *PersonCard) PrintMessage() {
 
 func main() {
 
-	doc := new(Document)
-	pcard := new(PersonCard)
-
-	doc.Date = "1.10.2018"
-	doc.NumberOfPages = 5
-	doc.Number = "A - 100"
-
-	pcard.Date = "1.10.2018"
-	pcard.Age = 21
-	pcard.FirstName = "User"
-	pcard.LastName = "Test"
+	var doc PrintInterface = &Document{"1.10.2018", "A - 100", 5}
+	var pcard PrintInterface = &PersonCard{"1.10.2018", "User", "Test", 21}
 
 	sl := []PrintInterface{doc, pcard}
 
